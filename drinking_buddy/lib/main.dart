@@ -324,6 +324,7 @@ class DrinkLog extends StatelessWidget {
               ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Calculating BAC...')),
                 );
+                Text(message);
             },
             child: Text('Calculate BAC'),
           ),
